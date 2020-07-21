@@ -14,7 +14,7 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/Semicolon88/Podcast">View Source Code</a>
+    <a href="github.com/Semicolon88/Podcast">View Source Code</a>
   </p>
 </p>
 
@@ -25,15 +25,8 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
 
 
 
