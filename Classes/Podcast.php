@@ -26,6 +26,11 @@
             {
                 while($row = $stmt->fetch())
                 {
+                    $sequel = "SELECT * FROM tags WHERE id = ?";
+                    $prep_stmt = $this->DBHandler->prepare($sequel);
+                    $prep_stmt->execute([$row['tag']]);
+                    $res = $prep_stmt->fetch();
+                    $row['tag'] = $res['tag'];
                     $data[] = $row;
                 }
                 return $data;
@@ -288,6 +293,22 @@
                     $userData[] = $user;
                 }
                 return $userData;
+            }
+        }
+
+        public function selectThis($tag){
+            $sql = "SELECT * FROM tags WHERE tag = ?";
+            $stmt = $this->DBHandler->prepare($sql);
+            $stmt->execute([$tag]);
+            $result = $stmt->fetch();
+            $sequel = "SELECT * FROM podcasts WHERE tag = ?";
+            $stmt = $this->DBHandler->prepare($sequel);
+            $stmt->execute([$result['id']]);
+            if($stmt->rowCount() > 0){
+                while($data = $stmt->fetch()){
+                    $row[] = $data;
+                }
+                return $row;
             }
         }
    }

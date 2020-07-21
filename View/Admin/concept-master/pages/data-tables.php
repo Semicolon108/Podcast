@@ -22,6 +22,7 @@
                                 <th>Titles</th>
                                 <th>Tags</th>
                                 <th>Description</th>
+                                <th>Upload Date</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
@@ -36,6 +37,7 @@
                                             <td><?=$row['title']?></td>
                                             <td><?=$row['tag']?></td>
                                             <td><?=$row['description']?></td>
+                                            <td><?=$row['date_uploaded']?></td>
                                             <td>
                                                 <div class="row justify-content-center">
                                                     <div class="col-4 text-center">

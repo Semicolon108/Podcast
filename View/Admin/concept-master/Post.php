@@ -1,6 +1,4 @@
 <?php
-    //include_once "../../../Classes/Model/Session.class.php";
-    //include_once "../../../Classes/Database.php";
     include_once "../../../vendor/Autoload.php"; 
     
     $user = new Podcast;

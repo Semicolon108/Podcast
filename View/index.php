@@ -2,8 +2,7 @@
    include_once "../vendor/Autoload.php";
    include "../src/requests.inc.php";
    $obj = new Podcast;
-   $data = $obj->selectAll();
-
+   $no_of_post = 3;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -58,7 +57,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav row col-12">
               <li class="nav-item active col-md-3 col-sm-12 text-sm-left">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item dropdown col-md-3 col-sm-12 text-sm-left">
                 <?php
@@ -85,12 +84,11 @@
               <a class="nav-link" href="#" href="#" role="button" id="dropdownMenuLi" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tags</a>
                 <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuLi">
                   <?php
-                  $obj = new Podcast;
                       $tags = $obj->select_tags();
                       if(!empty($tags)):
                          foreach($tags as $tagName):
                   ?>
-                          <a class="dropdown-item" href="Admin/concept-master/Login/login.php"><?=$tagName['tag']?></a>
+                          <a class="dropdown-item" href="<?=$_SERVER['PHP_SELF']?>?tag=<?=$tagName['tag']?>"><?=$tagName['tag']?></a>
                   <?php
                          endforeach;
                         endif;   
@@ -130,7 +128,9 @@
           </div>
         </div>
         <?php
+          $data = (($_GET)?$obj->selectThis($_GET['tag']):$obj->selectAll());
            if(!empty($data)):
+            $counter = 0;
               foreach($data as $row):
         ?>
         <div class="d-block d-md-flex podcast-entry bg-white mb-5" data-aos="fade-up">
@@ -151,25 +151,18 @@
         </div>
         <?php
             endforeach;
-          endif;
+        ?>
+          <?php
+            else:
+          ?>
+        <div class="col-6 mx-auto text-center">
+          <h4>No Podcast for this Tag!</h4>
+        </div>
+        <?php
+            endif;
         ?>
       </div>
       <div class="container" data-aos="fade-up">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <div class="site-block-27">
-              <ul>
-                <li><a href="#">&lt;</a></li>
-                <li class="active"><span>1</span></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-                <li><a href="#">&gt;</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
 
