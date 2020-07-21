@@ -26,9 +26,8 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-* [Features](#features)  
-* [License](#license)
 * [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
 
 
 
