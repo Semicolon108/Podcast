@@ -38,7 +38,12 @@
 [Podcast](https://github.com/Semicolon88/Podcast/blob/master/Screen%20Shot%202020-07-21%20at%205.32.46%20PM.png)
 
 
-The aim of this repository is to make available a digital audio file on a web platform.This repository contains a file that handles all interaction between users and database <img src='https://github.com/Semicolon88/Podcast/blob/master/Screen%20Shot%202020-07-21%20at%205.34.41%20PM.png'> [Handler Source code](https://github.com/Semicolon88/Podcast/blob/master/Classes/Podcast.php)
+The aim of this repository is to make available a digital audio file on a web platform.This repository contains a file that handles all interactions between users and database <img src='https://github.com/Semicolon88/Podcast/blob/master/Screen%20Shot%202020-07-21%20at%205.34.41%20PM.png'> [Handler Source code](https://github.com/Semicolon88/Podcast/blob/master/Classes/Podcast.php).
+
+Also,it contains a secure and user-friendly login system that authorizes and specify access in respect to
+user's information.
+
+[Administrator-Panel]() present,is a an andministrator panel where all informations of this web application can be created,updated and deleted.datas that are deleted from the database are also retrievable.
 
 ### Built With
 <ul>
@@ -47,21 +52,15 @@ The aim of this repository is to make available a digital audio file on a web pl
    <li>Jquery</li>
    <li>Javascript</li>
    <li>PHP</li>
-   <li>MySql</li>
+   <li>MySQL</li>
 </ul>
-
-## Features
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Project Link: [https://github.com/semicolon88/Podcast](https://github.com/semicolon88/Podcast)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [Colorlib website template](https://colorlib.com/wp/templates)
+* [Bootstrap](https://getbootstrap.com)
