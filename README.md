@@ -33,7 +33,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/Semicolon88/Podcast/blob/master/Screen%20Shot%202020-07-21%20at%205.32.46%20PM.png)
+[![Landing Page][product-screenshot]](https://github.com/Semicolon88/Podcast/blob/master/Screen%20Shot%202020-07-21%20at%205.32.46%20PM.png)
 
 
 There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
