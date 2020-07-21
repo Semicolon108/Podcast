@@ -14,7 +14,7 @@
 
   <p align="center">
     <br />
-    <a href="https://https://github.com/Semicolon88/Podcast">View Source Code</a>
+    <a href="https://github.com/Semicolon88/Podcast">View Source Code</a>
   </p>
 </p>
 
