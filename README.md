@@ -3,6 +3,8 @@
 **Version 1.0.0**
 
 # Pages
--- Landing page
--- User Login
--- User registration
+<ul>
+  <li>Landing page</li>
+  <li>User Login</li>
+  <li>User Registration</li>
+</ul>
