@@ -35,10 +35,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Landing Page][product-screenshot]](https://github.com/Semicolon88/Podcast/blob/master/Screen%20Shot%202020-07-21%20at%205.32.46%20PM.png)
+[Podcast](https://github.com/Semicolon88/Podcast/blob/master/Screen%20Shot%202020-07-21%20at%205.32.46%20PM.png)
 
 
-The aim of this repository is to make available a digital audio file on a web platform.This repository contains a file that handles all interaction between users and database [![source code][Handler]](https://github.com/Semicolon88/Podcast/blob/master/Classes/Podcast.php)
+The aim of this repository is to make available a digital audio file on a web platform.This repository contains a file that handles all interaction between users and database <img src='https://github.com/Semicolon88/Podcast/blob/master/Screen%20Shot%202020-07-21%20at%205.34.41%20PM.png'> [Handler Source code](https://github.com/Semicolon88/Podcast/blob/master/Classes/Podcast.php)
 
 ### Built With
 <ul>
