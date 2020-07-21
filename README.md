@@ -43,7 +43,7 @@ The aim of this repository is to make available a digital audio file on a web pl
 Also,it contains a secure and user-friendly login system that authorizes and specify access in respect to
 user's information.
 
-[Administrator-Panel](https://github.com/Semicolon88/Podcast/tree/master/View/Admin/concept-master/pages) present,is a an andministrator panel where all informations of this web application can be created,updated and deleted.datas that are deleted from the database are also retrievable.
+[Administrator-Panel](https://github.com/Semicolon88/Podcast/tree/master/View/Admin/concept-master/pages) present,is an andministrator panel where all informations of this web application can be created,updated and deleted.datas that are deleted from the database are also retrievable.
 
 ### Built With
 <ul>
