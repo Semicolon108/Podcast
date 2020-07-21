@@ -11,4 +11,4 @@
 </ul>
 
 <h3>Objective</h3>
-<p>Podcast repo is a web</p>
+<p>Podcast repository is an interactive web app </p>
