@@ -3,13 +3,7 @@
 **Version 1.0.0**
 
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <!--img src="images/logo.png" alt="Logo" width="80" height="80"-->
-    <h3>Podcast</h3>
-  </a>
+
 
   <h3 align="center">Programming tutorials Podcast</h3>
 
