@@ -39,6 +39,18 @@ user's information.
 [Administrator-Dashboard](https://github.com/Semicolon88/Podcast/tree/master/View/Admin/concept-master/pages) present,is an andministrator panel where all informations of this web application can be created,updated and deleted.datas that are deleted from the database are also retrievable.
 <table>
     <caption>Admin Login</caption>
+    <thead>
+        <tr>
+          <th>Email</th>
+          <th>Password</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>ajan_habeeb88@yahoo.com</td>
+          <td>sokratis</td>
+        </tr>
+    </thead>
 </table>
 ### Built With
 <ul>
