@@ -47,7 +47,7 @@ user's information.
     </thead>
     <tbody>
         <tr>
-          <td>ajan_habeeb88@yahoo.com</td>
+          <td>ajani_habeeb88@yahoo.com</td>
           <td>sokratis</td>
         </tr>
     </thead>
