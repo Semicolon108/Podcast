@@ -31,7 +31,7 @@
 [Podcast](https://github.com/Semicolon88/Podcast/blob/master/Screen%20Shot%202020-07-21%20at%205.32.46%20PM.png)
 
 
-Podcast project is an interactive web application with the aim of making available a digital audio file on a web platform.This repository contains a file that handles all Tranctions between users and database with PDO MySQL drivers. <img src='https://github.com/Semicolon88/Podcast/blob/master/Screen%20Shot%202020-07-21%20at%205.34.41%20PM.png'> [Handler Source code](https://github.com/Semicolon88/Podcast/blob/master/Classes/Podcast.php).
+Podcast project is an interactive web application with the aim of making available a digital audio file on a web platform.This repository contains a file that handles all Transactions between users and database with PDO MySQL drivers. <img src='https://github.com/Semicolon88/Podcast/blob/master/Screen%20Shot%202020-07-21%20at%205.34.41%20PM.png'> [Handler Source code](https://github.com/Semicolon88/Podcast/blob/master/Classes/Podcast.php).
 
 Also,it contains a secure and user-friendly login system that authorizes and specify access in respect to
 user's information.
