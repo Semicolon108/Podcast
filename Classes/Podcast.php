@@ -311,5 +311,24 @@
                 return $row;
             }
         }
+        public function select_deleted_post(){
+            $sequel = "SELECT * FROM podcasts WHERE deleted = 1";
+            $stmt= $this->DBHandler->query($sequel);
+            if($stmt->rowCount() > 0){
+                while($res = $stmt->fetch()){
+                    $data[] = $res;
+                }
+                return $data;
+            }
+        }
+        public function undo_delete($id){
+            $sequel = "UPDATE podcasts SET deleted = 0 WHERE id = ?";
+            $prep_stmt = $this->DBHandler->prepare($sequel);
+            $undo = $prep_stmt->execute([$id]);
+            if($undo){
+                header('Location: pages/deleted.php');
+            }
+
+        }
    }
 ?>

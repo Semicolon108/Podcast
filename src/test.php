@@ -166,10 +166,10 @@ John Abraham</h5>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <div class="col-6">
                             <div class="nav flex-column nav-pills col-12" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                               <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+                               <a class="nav-link active" href="data-tables.php">Home</a>
                                <a class="nav-link" href="../Post.php">Post</a>
                                <a class="nav-link" href="../users.php">Users</a>
-                               <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+                               <a class="nav-link" href='deleted.php'>Deleted</a>
                             </div>
                         </div>
                     </div>

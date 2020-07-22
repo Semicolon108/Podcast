@@ -180,10 +180,10 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <div class="col-6">
                             <div class="nav flex-column nav-pills col-12" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                            <a class="nav-link active" href="pages/data-tables.php">Home</a>
+                               <a class="nav-link active" href="pages/data-tables.php">Home</a>
                                <a class="nav-link" href="Post.php">Post</a>
                                <a class="nav-link" href="users.php">Users</a>
-                               <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+                               <a class="nav-link" href="pages/deleted.php">Deleted</a>
                             </div>
                         </div>
                     </div>

@@ -1,4 +1,9 @@
 <?php
+    if(isset($_GET['deleted_post'])){
+        $id = $_GET['deleted_post'];
+        $obj = new Podcast;
+        $obj->undo_delete($id);
+    }
     if(isset($_POST['submit']))
     {
         $obj = new Podcast;
