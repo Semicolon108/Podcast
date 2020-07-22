@@ -36,7 +36,7 @@ Podcast project is an interactive web application with the aim of making availab
 Also,it contains a secure and user-friendly login system that authorizes and specify access in respect to
 user's information.
 
-[Administrator-Dashboard](https://github.com/Semicolon88/Podcast/tree/master/View/Admin/concept-master/pages) present,is an andministrator panel where all informations of this web application can be created,updated and deleted.datas that are deleted from the database are also retrievable.
+[Administrator-Dashboard](https://github.com/Semicolon88/Podcast/tree/master/View/Admin/concept-master/pages) present,is an administrator dashborad where informations of this web application can be created,updated and deleted.datas deleted are also retrievable.
 <table>
     <caption>Admin Login</caption>
     <thead>
