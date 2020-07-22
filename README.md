@@ -37,7 +37,9 @@ Also,it contains a secure and user-friendly login system that authorizes and spe
 user's information.
 
 [Administrator-Dashboard](https://github.com/Semicolon88/Podcast/tree/master/View/Admin/concept-master/pages) present,is an andministrator panel where all informations of this web application can be created,updated and deleted.datas that are deleted from the database are also retrievable.
-
+<table>
+    <caption>Admin Login</caption>
+</table>
 ### Built With
 <ul>
    <li>HTML5</li>
